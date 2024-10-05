@@ -3,7 +3,8 @@
 
 A simple interactive solar system simulation created using Three.js. This project visualizes the sun and the eight planets orbiting around it, showcasing their colors, distances, and labels.
 
-![image](https://github.com/user-attachments/assets/2db08bdf-0796-4f5c-9a46-05b5121fa3cb)
+![image](https://github.com/user-attachments/assets/04559e34-c733-4bbe-886c-2005fa4d5f3d)
+
 
 
 ## Features

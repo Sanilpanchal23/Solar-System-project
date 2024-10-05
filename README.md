@@ -25,28 +25,30 @@ A simple interactive solar system simulation created using Three.js. This projec
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/solar-system.git
-Navigate to the Project Directory:
+   ```
+   
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd solar-system
+   ```
 
-bash
-Always show details
+3. **Open `index.html` in Your Browser**: You can use any web server or simply open the file directly in your browser.
 
-Copy code
-cd solar-system
-Open index.html in Your Browser: You can use any web server or simply open the file directly in your browser.
+## Usage
 
-Usage
-Orbit the Camera: Click and drag with the mouse to rotate the camera around the scene.
-Resize the Window: The simulation automatically adjusts to window size changes.
-Code Structure
-index.html: Main HTML file that sets up the canvas and includes scripts.
-main.js: Main JavaScript file where the Three.js scene, camera, renderer, planets, and animations are created.
-Example Code Snippet
+- **Orbit the Camera**: Click and drag with the mouse to rotate the camera around the scene.
+- **Resize the Window**: The simulation automatically adjusts to window size changes.
+
+## Code Structure
+
+- `index.html`: Main HTML file that sets up the canvas and includes scripts.
+- `main.js`: Main JavaScript file where the Three.js scene, camera, renderer, planets, and animations are created.
+
+## Example Code Snippet
+
 Here is a small part of the code that creates the sun and planets:
 
-javascript
-Always show details
-
-Copy code
+```javascript
 // Create the Sun
 const sunGeometry = new THREE.SphereGeometry(1, 32, 32);
 const sunMaterial = new THREE.MeshBasicMaterial({ color: 0xffff00 });
@@ -61,3 +63,17 @@ function createPlanet(size, color, distance) {
     planet.distance = distance; // Store distance
     return planet;
 }
+```
+
+
+
+## Acknowledgments
+
+- Thanks to the Three.js community for the extensive documentation and resources.
+- Inspiration from various solar system simulations online.
+
+## Contributing
+
+Feel free to submit issues or pull requests if you have suggestions for improvements or additional features!
+
+

@@ -17,7 +17,7 @@ A simple interactive solar system simulation created using Three.js. This projec
 ## Technologies Used
 
 - [Three.js](https://threejs.org/) - A JavaScript library for creating 3D graphics in the browser.
-- JavaScript (ES6+)
+- JavaScript 
 - HTML
 - CSS
 
